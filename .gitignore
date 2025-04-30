@@ -1,0 +1,17 @@
+# Data
+data/raw/
+data/processed/
+data/external/
+
+# Notebooks checkpoints
+**/.ipynb_checkpoints
+
+# Environments
+.venv/
+__pycache__/
+
+# OS clutter
+.DS_Store
+
+# Credentials
+.env.env
