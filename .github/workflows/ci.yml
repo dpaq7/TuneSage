@@ -1,5 +1,7 @@
 name: CI
-on: [push, pull_request]
+on:
+push:
+pull_request:
 jobs:
 lint-and-hooks:
 runs-on: ubuntu-latest
@@ -7,11 +9,11 @@ steps:
 - uses: actions/checkout@v4
 - uses: actions/setup-python@v5
 with:
-python-version '3.12'
+python-version: '3.12'
 - name: Install deps
 run: |
-python -m pip install --uprgrade pip
+python -m pip install --upgrade pip
 pip install pip-tools
 pip-sync requirements.txt
 - name: Run pre-commit hooks
-run: pre-commit run --all-files --show-dif-on-failure
+run: precommit run --all-files --show-diff-on-failure
