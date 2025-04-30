@@ -1,0 +1,15 @@
+-m -r base.in       # pull everything from base
+
+# ── Code quality ──────────────────────────────
+black>=24.3
+isort>=5.13
+flake8>=7.0
+mypy>=1.10
+
+# ── Testing ───────────────────────────────────
+pytest>=8.1
+pytest-cov>=5.0
+
+# ── Git hooks / commits ───────────────────────
+pre-commit>=3.7
+commitizen>=3.14
