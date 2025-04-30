@@ -4,3 +4,104 @@
 #
 #    pip-compile --output-file=dev-requirements.txt requirements/dev.in
 #
+argcomplete==3.5.3
+    # via commitizen
+black==25.1.0
+    # via -r requirements/dev.in
+cfgv==3.4.0
+    # via pre-commit
+charset-normalizer==3.4.1
+    # via commitizen
+click==8.1.8
+    # via black
+colorama==0.4.6
+    # via commitizen
+commitizen==4.6.0
+    # via -r requirements/dev.in
+coverage[toml]==7.8.0
+    # via pytest-cov
+decli==0.6.2
+    # via commitizen
+distlib==0.3.9
+    # via virtualenv
+filelock==3.18.0
+    # via virtualenv
+flake8==7.2.0
+    # via -r requirements/dev.in
+identify==2.6.10
+    # via pre-commit
+iniconfig==2.1.0
+    # via pytest
+isort==6.0.1
+    # via -r requirements/dev.in
+jinja2==3.1.6
+    # via commitizen
+markupsafe==3.0.2
+    # via jinja2
+mccabe==0.7.0
+    # via flake8
+mypy==1.15.0
+    # via -r requirements/dev.in
+mypy-extensions==1.1.0
+    # via
+    #   black
+    #   mypy
+nodeenv==1.9.1
+    # via pre-commit
+numpy==2.2.5
+    # via
+    #   -r /Users/danpaquin/Desktop/Data Science /Projects/TuneSage/requirements/base.in
+    #   pandas
+packaging==25.0
+    # via
+    #   black
+    #   commitizen
+    #   pytest
+pandas==2.2.3
+    # via -r /Users/danpaquin/Desktop/Data Science /Projects/TuneSage/requirements/base.in
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.7
+    # via
+    #   black
+    #   virtualenv
+pluggy==1.5.0
+    # via pytest
+pre-commit==4.2.0
+    # via -r requirements/dev.in
+prompt-toolkit==3.0.51
+    # via questionary
+pycodestyle==2.13.0
+    # via flake8
+pyflakes==3.3.2
+    # via flake8
+pytest==8.3.5
+    # via
+    #   -r requirements/dev.in
+    #   pytest-cov
+pytest-cov==6.1.1
+    # via -r requirements/dev.in
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2025.2
+    # via pandas
+pyyaml==6.0.2
+    # via
+    #   commitizen
+    #   pre-commit
+questionary==2.1.0
+    # via commitizen
+six==1.17.0
+    # via python-dateutil
+termcolor==2.5.0
+    # via commitizen
+tomlkit==0.13.2
+    # via commitizen
+typing-extensions==4.13.2
+    # via mypy
+tzdata==2025.2
+    # via pandas
+virtualenv==20.30.0
+    # via pre-commit
+wcwidth==0.2.13
+    # via prompt-toolkit
