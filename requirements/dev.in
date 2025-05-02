@@ -1,4 +1,4 @@
--m -r base.in       # pull everything from base
+-r base.in          # pull everything from base
 
 # ── Code quality ──────────────────────────────
 black>=24.3
@@ -13,9 +13,3 @@ pytest-cov>=5.0
 # ── Git hooks / commits ───────────────────────
 pre-commit>=3.7
 commitizen>=3.14
-
-# ── Git hooks ─────────────
-pre-commit>=3.7
-
-# ── Git hooks ─────────────
-pre-commit>=3.7
