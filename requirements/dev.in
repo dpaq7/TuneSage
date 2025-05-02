@@ -1,4 +1,4 @@
--m -r base.in       # pull everything from base
+-r base.in          # pull everything from base
 
 # ── Code quality ──────────────────────────────
 black>=24.3
